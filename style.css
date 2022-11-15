@@ -1,0 +1,344 @@
+@charset "UTF-8";
+.dimensions {
+  width: 360px;
+}
+
+.mano {
+  display: flex;
+  position: fixed;
+  padding: 10px;
+  bottom: 30px;
+  right: 35px;
+  height: 45px;
+  width: 45px;
+  z-index: 1;
+  background-color: #611F69;
+  border-radius: 5px;
+}
+
+.explora a:hover, .explora a:active, .explora a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.flechalink:hover {
+  text-decoration: none;
+}
+
+.flechalink::after {
+  background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1%206a.5.5%200%200%200%200%201V6zM12.854.646a.5.5%200%200%200-.708.708l.708-.708zM18%206.5l.354.354a.5.5%200%200%200%200-.708L18%206.5zm-5.854%205.146a.5.5%200%200%200%20.708.708l-.708-.708zM1%207h16.5V6H1v1zm16.646-.854l-5.5%205.5.708.708%205.5-5.5-.708-.708zm-5.5-4.792l2.75%202.75.708-.708-2.75-2.75-.708.708zm2.75%202.75l2.75%202.75.708-.708-2.75-2.75-.708.708z%22%20fill%3D%22%231264A3%22%2F%3E%3C%2Fsvg%3E);
+  content: "";
+  width: 19px;
+  height: 13px;
+  display: inline-block;
+  margin-left: 0.5em;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  background-color: RGB(66, 133, 244);
+  height: 80px;
+  display: flex;
+  z-index: 1;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 0px;
+  background-color: #611F69;
+}
+
+.nav-logo {
+  width: 100px;
+}
+
+.nav-menu {
+  width: 25px;
+}
+
+.start {
+  color: white;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: RGB(66, 133, 244);
+  padding-bottom: 30px;
+}
+.start h1 {
+  font-size: 40px;
+}
+.start p {
+  font-size: 20px;
+}
+
+.start-btn_blue {
+  background-color: RGB(66, 133, 244);
+  display: flex;
+  align-items: center;
+}
+.start-btn_blue img {
+  width: 40px;
+  border-radius: 5%;
+  margin-right: 43px;
+}
+
+.foto {
+  padding: 0;
+}
+
+button {
+  width: 360px;
+  height: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 700;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.bt_morado {
+  background-color: rgb(84, 21, 84);
+  color: white;
+  border: 1px solid white;
+}
+
+.bt_blanco {
+  background-color: white;
+  border: 1px solid mediumorchid;
+  color: mediumorchid;
+}
+
+body {
+  padding: 0%;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body h2 {
+  font-size: 30px;
+}
+body main {
+  background-color: transparent;
+}
+body main .start {
+  background-color: rgb(84, 21, 84);
+}
+body main .gif {
+  background-color: mediumorchid;
+  margin: 0px;
+  padding: 0px;
+}
+body main .gif video {
+  max-width: 600px;
+  max-height: 700px;
+  overflow: hidden;
+}
+body main div {
+  flex-wrap: wrap;
+}
+body main div .imagen2 {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+body main div :-webkit-any-link {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body main div :-moz-any-link {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body main div h2, body main div p, body main div :any-link {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body main div a {
+  text-decoration: none;
+  color: #1264a3;
+}
+body main div a:hover {
+  text-decoration: underline;
+}
+
+video {
+  width: 390px;
+}
+
+.confian {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.confian .confian-equipos p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.confian div {
+  margin: 15px;
+}
+.confian .history span {
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.confian .porcent {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+.confian .porcent h2 {
+  color: mediumorchid;
+  font-size: 50px;
+  margin: 0;
+}
+.confian .porcent p {
+  margin: 0;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 14px;
+}
+
+.señor {
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.utilidad {
+  background-color: #e9e3da;
+}
+.utilidad span {
+  letter-spacing: 0.8px;
+  font-size: 14px;
+  text-align: center;
+  padding: 25px;
+  display: flex;
+  font-weight: 700;
+}
+
+.utilidad-empresas {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.utilidad-empresas div {
+  display: flex;
+  align-items: center;
+}
+.utilidad-empresas div img {
+  width: 70px;
+  margin: 10px;
+}
+.utilidad-empresas div .nyt {
+  width: 200px;
+}
+
+.explora {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 50px;
+  background-color: #f4ede4;
+}
+.explora .explora-box {
+  width: 300px;
+  background-color: white;
+  padding: 15px;
+  text-align: left;
+  justify-content: flex-start;
+}
+.explora .explora-box span {
+  margin-top: 20px;
+}
+.explora .explora-box h3 {
+  font-size: 20px;
+}
+.explora .explora-box h4 {
+  font-size: 14px;
+}
+.explora .explora-box img {
+  width: 100%;
+}
+
+.prefooter {
+  background-color: white;
+  flex-direction: column;
+  font-weight: 500;
+}
+.prefooter div {
+  padding: 0;
+}
+.prefooter p {
+  font-size: 14px;
+  text-align: left;
+  padding: 0;
+  font-weight: 300;
+}
+.prefooter a {
+  color: black;
+}
+.prefooter ul {
+  list-style: none;
+  padding: 0;
+  text-align: start;
+}
+.prefooter ul li {
+  margin-bottom: 20px;
+}
+
+.rrss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rrss li {
+  width: 30px;
+  height: 30px;
+}
+.rrss li img {
+  width: 100%;
+}
+
+.logofooter {
+  width: 80%;
+  margin: 10px;
+}
+
+.prefooter-box-logo {
+  width: 50px;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(84, 21, 84);
+  -webkit-clip-path: ellipse(100% 100% at center top);
+          clip-path: ellipse(100% 100% at center top);
+  color: #e9e3da;
+  padding-bottom: 6rem;
+}
+.welcome h2 {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.youtube {
+  display: flex;
+  width: 100%;
+  border-top-right-radius: 400px;
+  border-bottom-right-radius: 400px;
+}/*# sourceMappingURL=style.css.map */
